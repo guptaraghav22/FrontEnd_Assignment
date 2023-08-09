@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="sub_container">
+        <div class="">
+          <p class="heading">Bundle & Save</p>
+        </div>
+        <div class="card" id="firstCard">
+          <div class="row">
+            <div class="partition">
+              <input
+                type="radio"
+                name="item"
+                id=""
+                onclick="activate('pair1')"
+                checked
+                value="pair1"
+              />
+              <div class="sub_row">
+                <p class="pair" >1 Pair</p>
+                <p class="dkk" style="margin-top: 10px;">DKK 195.00</p>
+              </div>
+            </div>
+            <div class="partition">
+              <div></div>
+              <p class="off">50% OFF</p>
+            </div>
+          </div>
+          <div class="toggle">
+            <div style="display: flex">
+              <div class="options">
+                <p class="options">Size</p>
+                <select class="dropdown-Size" name="size" id="">
+                  <option value="s">S</option>
+                  <option value="m">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div>
+                <p class="options">Colour</p>
+                <select class="dropdown-colour" name="color" id="">
+                  <option value="orange">orange</option>
+                  <option value="red">Red</option>
+                  <option value="black">black</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="secondCard">
+          <div class="row">
+            <div class="partition">
+              <input
+                type="radio"
+                name="item"
+                id=""
+                value="pair2"
+                onclick="activate('pair2')"
+              />
+              <div class="sub_row">
+                <p class="pair">2 Pair</p>
+                <p class="dkk" >DKK 195.00</p>
+              </div>
+            </div>
+            <div class="partition">
+              <p class="off">50% OFF</p>
+            </div>
+          </div>
+          <div class="toggle" id="dynamic">
+            <div style="display: flex">
+              <div class="options">
+                <p class="options">Size</p>
+                <select class="dropdown-Size" name="size" id="">
+                  <option value="s">S</option>
+                  <option value="m">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div>
+                <p class="options">Colour</p>
+                <select class="dropdown-colour" name="color" id="">
+                  <option value="orange">orange</option>
+                  <option value="red">Red</option>
+                  <option value="black">black</option>
+                </select>
+              </div>
+            </div>
+            <div style="display: flex">
+              <div class="options">
+                <p class="options">Size</p>
+                <select  class="options" name="size" id="">
+                  <option value="s">S</option>
+                  <option value="m">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div>
+                <p class="options">Colour</p>
+                <select class="dropdown-colour"  id="">
+                  <option value="orange">orange</option>
+                  <option value="red">Red</option>
+                  <option value="black">black</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="thirdCard">
+          <div class="row">
+            <div class="partition">
+              <input
+                type="radio"
+                name="item"
+                id=""
+                value="pair3"
+                onclick="activate('pair3')"
+              />
+              <div class="sub_row">
+                <p class="pair">3 Pair</p>
+                <p  style="margin-top: 10px;" class="dkk">DKK 195.00</p>
+              </div>
+            </div>
+            <div class="partition">
+              <p class="off">50% OFF</p>
+            </div>
+          </div>
+
+          <div class="toggle" id="dynamic">
+            <div style="display: flex">
+              <div class="options">
+                <p class="options">Size</p>
+                <select class="dropdown-Size" name="size" id="">
+                  <option value="s">S</option>
+                  <option value="m">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div>
+                <p class="options">Colour</p>
+                <select class="dropdown-colour" name="color" id="">
+                  <option value="orange">orange</option>
+                  <option value="red">Red</option>
+                  <option value="black">black</option>
+                </select>
+              </div>
+            </div>
+            <div style="display: flex">
+              <div class="options">
+                <p class="options">Size</p>
+                <select class="dropdown-Size" name="size" id="">
+                  <option value="s">S</option>
+                  <option value="m">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div>
+                <p class="options">Colour</p>
+                <select name="color" class="dropdown-colour" id="">
+                  <option value="orange">Orange</option>
+                  <option value="red">Red</option>
+                  <option value="black">black</option>
+                </select>
+              </div>
+            </div>
+            <div style="display: flex">
+              <div class="options">
+                <p class="options">Size</p>
+                <select name="size" class="dropdown-Size" id="">
+                  <option value="s">S</option>
+                  <option value="m">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+              <div>
+                <p class="options">Colour</p>
+                <select name="color" class="dropdown-colour" id="">
+                  <option value="orange">Orange</option>
+                  <option value="red">Red</option>
+                  <option value="black">black</option>
+                </select>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="addtocart" style="display: flex;">
+                
+          <p style="color: #007F61;"> Free 2 Day Shipping</p>
+          <p style="justify-content: flex-end; font-weight: bold;"> Total: DKK 360.00</p></p>
+
+        </div>
+        <div class="card">
+          <button style="background-color: #007F61; width: 100%;height: 48px; color:white">+Add To Cart</button>
+        </div>
+
+      </div>
+    </div>
+    <script src="logic.js">
+
+
+      // const box=document.getElementById("myCard");
+      // let isClicked=false;
+
+      // box.addEventListener("click",function(){
+      //   if(!isClicked){
+      //     box.classList.add("clicked");
+      //     isClicked=true;
+      //   }else{
+      //     box.classList.remove("clicked");
+      //   }
+      // })
+
+
+      // const box=document.getElementsByClassName("card");
+      // for(let i=0; i<box.length;i++){
+      //   box[i].addEventListener('click',()=>{
+      //      if(box[i].classList.contains("clicked")){
+      //         box[i].classList.remove("clicked");
+      //      }
+      //      else{
+      //         box[i].classList.add("clicked");
+      //         for(let j=0;j<box.length;j++){
+      //            if(i!=j){
+      //              box[j].classList.remove("clicked");
+      //            }
+      //         }
+      //      }
+      //   })
+      // }
+
+
+      // const activate = (selectedValue) => {
+      //   const item = document.getElementsByName("item");
+      //   const toggels = document.getElementsByClassName("toggle");
+      //   for (let i = 0; i <= item.length - 1; i++) {
+      //     if (item[i].checked) {
+      //       console.log("show");
+      //       toggels[i].removeAttribute("id");
+      //       console.log(item[i].value);
+      //     } else {
+      //       toggels[i].id = "dynamic";
+      //       console.log("hide");
+      //     }
+      //   }
+        // console.log(item);
+        // console.log(selectedValue);
+      // };
+    </script>
+  </body>
+</html>

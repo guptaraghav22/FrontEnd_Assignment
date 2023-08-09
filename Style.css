@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+  }
+
+  .options{
+    margin-left: 35px; 
+    font-weight: bold;
+  }
+
+  .sub_container {
+    /* border: 1px solid red; */
+    width: 50%;
+  }
+  .heading {
+    text-align: center;
+    color:#007F61;
+    margin-top: 30%;
+    }
+  .card {
+    width: 100%;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .addtocart {
+    width: 100%;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .card.clicked{
+    border-color: green;
+    background-color: #CFF5E7;
+  }
+  .row {
+    display: flex;
+  }
+  .sub_row {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  }
+  .sub_row > p {
+    margin: 0;
+    padding: 0;
+  }
+  .partition {
+    /* border: 1px solid grey; */
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-bottom: 10px;
+    justify-content: space-between;
+
+  }
+  #dynamic {
+    display: none;
+  }
+
+  .options{
+    margin-bottom: 5px;
+    margin-left: 22px;
+  }
+
+  .dropdown-Size{
+    margin-left: 22px
+  }
+
+  .dropdown-colour{
+    margin-left: 22px;
+  }
+  .pair{
+    font-weight: 300px; color: #333333; margin-top: 10px;
+  }
+
+  .dkk{
+    font-weight: bold; 
+    /* margin-top: 20px; */
+  }
+
+  .off{
+    margin-left: 150px;
+     margin-top: 12%;
+  }
+  
